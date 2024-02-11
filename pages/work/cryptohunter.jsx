@@ -5,9 +5,9 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import Screenshot1 from "../../public/work/screenshot1.png";
+import Screenshot1 from "../../public/work/Screenshot1.png";
 import Screenshot2 from "../../public/work/Screenshot2.png";
-import Screenshot3 from "../../public/work/screenshot3.png";
+import Screenshot3 from "../../public/work/Screenshot3.png";
 import Screenshot4 from "../../public/work/Screenshot4.png";
 
 export default function PlayMirror() {
