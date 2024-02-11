@@ -109,7 +109,7 @@ const Education = () => {
                     margin: '0',
                   }}
                 >
-                  Since 2021, I started to learn Programming. I have learned HTML, CSS, JavaScript, ReactJs, ExpressJs, NodeJs, MongoDB, React Native. Now I'm Confident To contribute To The Team As A Web Developer and Mobile Developer.
+                  Since 2021, I started to learn Programming. I have learned HTML, CSS, JavaScript, ReactJs, ExpressJs, NodeJs, MongoDB, React Native. Now Im Confident To contribute To The Team As A Web Developer and Mobile Developer.
                 </p>
               </div>
 
