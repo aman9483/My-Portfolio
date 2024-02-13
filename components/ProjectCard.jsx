@@ -23,7 +23,7 @@ const ProjectCard = () => {
     },
     {
       id: 2,
-      image: kamui,
+      image: portfolio,
       title: "SnapShare",
       description: "Full Stack Social Media Application With Firebase Authantication, User Login System, Search, Filter & Paggination Features. Here You Can Post The Pictures",
       link: "/work/kamui",
@@ -31,7 +31,7 @@ const ProjectCard = () => {
     },
     {
       id: 3,
-      image: cryptohunter,
+      image: portfolio,
       title: "EventHorizon",
       description: "The Full Stack Doctor Appointment System is a Web App for managing and scheduling medical appointments.search The symptoms & read it and buy meds",
       link: "/work/pokedex",
@@ -52,8 +52,8 @@ const ProjectCard = () => {
       image: portfolio,
       title: "SummarEase",
       description: "Simplify Your Reading With Summize, an innovative open-source article summarizer that revolutionizes the way you consume content. Summize is designed to enhance your reading experience by condensing lengthy articles into concise summaries, providing you with key insights at a glance.",
-      link: "/work/aizen",
-      target: "_self",
+      link: "https://summar-ease-five.vercel.app/",
+      target: "_blank",
     },
 
     {
@@ -74,7 +74,7 @@ const ProjectCard = () => {
     },
     {
       id: 8,
-      image: nike,
+      image: portfolio,
       title: "GlobeInfo",
       description: "Unlock a world of information with our ReactJS-powered app, effortlessly fetching and presenting detailed country data through a seamless API integration used The Paggination For Seemless User Exprience",
       link: "https://country-atlas-syry.vercel.app/",
@@ -82,7 +82,7 @@ const ProjectCard = () => {
     },
     {
       id: 10,
-      image: pokedex,
+      image: portfolio,
       title: "Pokedex",
       description: "🚀Welcome to the Pokédex Web App repository! This web application serves as a digital encyclopedia for Pokémon enthusiasts, providing a user-friendly interface to explore and learn about various Pokémon.",
       link: "https://pokedex-aman9483.vercel.app/pokemon/1",
@@ -106,7 +106,7 @@ const ProjectCard = () => {
     },
     {
       id: 13,
-      image: redeye,
+      image: portfolio,
       title: "Red Eye",
       description: "Question based website to know your movie genre",
       link: "/work/redeye",
