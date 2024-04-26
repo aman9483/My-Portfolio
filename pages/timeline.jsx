@@ -1,4 +1,4 @@
-import TimeLine from "@/components/TimeLine";
+import TimeLine from "../components/timeLine.jsx";
 import Head from "next/head";
 import React from "react";
 
