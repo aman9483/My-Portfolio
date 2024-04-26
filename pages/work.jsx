@@ -52,7 +52,7 @@ export default function Wok() {
             </svg>
           </div>
         </div>
-        <div className="mt-20 mb-20">
+        <div className="mt-20 mb-20 ">
           <ProjectCard />
         </div>
       </main>

@@ -8,6 +8,7 @@ import pranjal_header_black from "../public/goku.png";
 import pranjal_header_white from "../public//me.svg";
 import Avatar_Black from "../public/Avatar-black.svg";
 import Image from "next/image";
+import BackButton from "./BackButton";
 
 
 const Header = () => {
@@ -15,9 +16,11 @@ const Header = () => {
   const router = useRouter().asPath;
   const [mounted, setMounted] = useState(false);
   let Links = [
+    {name: "timeline", link:"/timeline"},
     { name: "Projects", link: "/work" },
     { name: "about", link: "/about" },
     { name: "Skills", link: "/tech" },
+    {name: "contact", link:"/contact"},
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -157,6 +160,7 @@ const Header = () => {
             >
               resume
             </a>
+           
           </li>
         </ul>
       </div>

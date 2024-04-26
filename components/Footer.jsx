@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FiGitBranch } from "react-icons/fi";
 import { FaRegStar } from "react-icons/fa";
 import LinkedIn from "../public/icons/linkedin2x.png";
-import GitHub from "../public/icons/github2x.png";
+import GitHub from "../public/icons/github@3x.png";
 import Image from "next/image";
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
   useEffect(() => {
     const getData = async () => {
       const data = await fetch(
-        "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
+        ""
       ).then((res) => res.json());
       setMetaData({
         star: data.stargazers_count,
@@ -54,7 +54,7 @@ const Footer = () => {
        
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://github.com/aman9483?tab=repositories"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 "

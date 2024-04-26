@@ -12,6 +12,8 @@ import Sparkles from "../public/Sparkles.svg";
 import Developer from "../public/Developer.svg";
 import Whale from "../public/Whale.svg";
 import { useEffect } from "react";
+import Education from '@/components/Experience'
+import TimeLine from "./timeline"
 
 export default function About() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -150,6 +152,10 @@ export default function About() {
             )}
           </div>
         </div>
+
+        
+        
+       
       </main>
     </div>
   );

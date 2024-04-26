@@ -73,18 +73,10 @@ export default function Home() {
               as well as Mobile App using the latest technologies currently. 
             </p>
 
-            <Image
-                src={Me}
-                alt="aman"
-                width="100"
-                height="100"
-                id="Me"
-              />
+          
           </div>
         </div>
-        <div className="mt-28 mx-auto">
-         <Education/>
-        </div>
+       
         <div className="mt-28 mx-auto ">
           <Contact />
         </div>

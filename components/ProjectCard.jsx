@@ -6,6 +6,7 @@ import aizen4 from "../public/music.jpg";
 import kamui from "../public/kamui.jpg";
 import pokedex from "../public/pokedex.jpg";
 import portfolio from "../public/portfolio.jpg";
+import crypto from "../public/crypto-hunter.jpg";
 import cryptohunter from "../public/crypto-hunter.jpg";
 import redeye from "../public/red-eye.jpg";
 import nike from "../public/nike2.jpg";
@@ -31,10 +32,10 @@ const ProjectCard = () => {
     },
     {
       id: 3,
-      image: portfolio,
-      title: "EventHorizon",
-      description: "The Full Stack Doctor Appointment System is a Web App for managing and scheduling medical appointments.search The symptoms & read it and buy meds",
-      link: "/work/pokedex",
+      image: crypto,
+      title: "Aora Mobile App",
+      description: "Aora Video App is a React Native application for creating, sharing, and discovering videos",
+      link: "/work/aora",
       target: "_self",
     },
 
@@ -115,11 +116,11 @@ const ProjectCard = () => {
   ];
 
   return (
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  ">
       {data.map((project) => {
         return (
           <div
-            className="rounded-lg mb-12 flex flex-col items-center"
+            className="rounded-lg mb-12 flex flex-col items-center project-card"
             key={project.id}
           >
             <Link

@@ -10,7 +10,7 @@ const TechCard = (props) => {
         window.scrollTo(0, 0);
       }}
     >
-      <div className="h-full w-full p-2 md:p-3 lg:p-4 relative">
+      <div className="h-full w-full p-2 md:p-3 lg:p-4 relative ">
         <Image
           src={props.main}
           fill

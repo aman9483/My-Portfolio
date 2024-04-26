@@ -9,62 +9,62 @@ export default function Document() {
     >
       <Head>
         {/* <title>Aman ✦ developer</title> */}
-        <meta name="title" content="pranjal ✦ developer, designer" />
-        <meta name="description" content="Developer // Designer // Weeb" />
+        <meta name="title" content="Aman ✦ developer" />
+        <meta name="description" content="Developer // Mobile App// Weeb, Ai enthusiast" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:url" content="https://aman-verma.vercel.app/" />
+        <meta property="og:title" content="Aman ✦ developer, Ai enthusiast" />
         <meta
           property="og:description"
           content="Developer "
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/du611jzcd/image/upload/v1714123922/WhatsApp_Image_2024-04-25_at_5.14.05_PM_ibksmt.jpg"
         />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://pranjalshikhar.vercel.app/"
+          content="https://aman-verma.vercel.app/"
         />
         <meta
           property="twitter:title"
-          content="pranjal ✦ developer, designer"
+          content="Aman ✦ developer"
         />
         <meta
           property="twitter:description"
-          content="Developer // Designer // Weeb"
+          content="Developer // web // mobile App"
         />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/du611jzcd/image/upload/v1714123922/WhatsApp_Image_2024-04-25_at_5.14.05_PM_ibksmt.jpg"
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="pranjal ✦ developer, designer" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:site_name" content="Aman ✦ developer, Ai enthusiast" />
+        <meta property="og:title" content="Aman ✦ developer, dAi enthusiast" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Developer // Mobile App// Weeb"
         />
         <meta
           property="og:image"
           itemprop="image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://res.cloudinary.com/du611jzcd/image/upload/v1714123922/WhatsApp_Image_2024-04-25_at_5.14.05_PM_ibksmt.jpg"
         />
         <meta property="og:type" content="website" />
 
         {/* canonical links */}
-        <link rel="canonical" href="https://pranjalshikhar.vercel.app/" />
+        <link rel="canonical" href="https://aman-verma.vercel.app/" />
         <link
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="pranjal ✦ developer, designer"
+          title="Aman ✦ developer, dAi enthusiast"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
