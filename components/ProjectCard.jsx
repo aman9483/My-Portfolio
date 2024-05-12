@@ -30,8 +30,17 @@ const ProjectCard = () => {
       link: "/work/kamui",
       target: "_self",
     },
+
     {
       id: 3,
+      image: portfolio,
+      title: "VidTalk",
+      description: "Full Stack Video Calling Application Using WebRTC, User St Name And Generate Id And Start Video Calling With Someone Used Socket Io",
+      link: "/work/Vidtalk",
+      target: "_self",
+    },
+    {
+      id: 4,
       image: crypto,
       title: "Aora Mobile App",
       description: "Aora Video App is a React Native application for creating, sharing, and discovering videos",
@@ -40,79 +49,71 @@ const ProjectCard = () => {
     },
 
     {
-      id: 4,
-      image:  portfolio,
-      title: "Flavor Haven",
-      description: "Food Explorer is a user-friendly web application designed to help you discover delicious dining options around your current location. The app utilizes cutting-edge technologies like ReactJS, Material-UI, and Geolocation API to provide a seamless and visually appealing experience.",
-      link: "/work/aizen",
-      target: "_self",
-    },
-
-    {
       id: 5,
-      image: portfolio,
-      title: "SummarEase",
-      description: "Simplify Your Reading With Summize, an innovative open-source article summarizer that revolutionizes the way you consume content. Summize is designed to enhance your reading experience by condensing lengthy articles into concise summaries, providing you with key insights at a glance.",
-      link: "https://summar-ease-five.vercel.app/",
-      target: "_blank",
+      image:  portfolio,
+      title: "StayEase",
+      description: "Full Stack Hotel Room Booking Application. Search, Filter Features. User Can Login and Explore Diverse Hotels Using Location.Admin Panel",
+      link: "/work/goku",
+      target: "_self",
     },
 
     {
       id: 6,
       image: portfolio,
+      title: "Pokedex",
+      description: "Pokédex Web App repository! This web application serves as a digital encyclopedia for Pokémon enthusiasts,  e-learn about various Pokémon.",
+      link: "https://pokedex-aman9483.vercel.app/pokemon/1",
+      target: "_blank",
+    },
+
+    {
+      id: 7,
+      image: portfolio,
+      title: "Play Mirror",
+      description: "seamlessly updated with the latest trends through Rapid API integration. Discover, play, and redefine your video streaming experience effortlessly.",
+      link: "/work/cryptohunter",
+      target: "_self",
+    },
+
+    {
+      id: 11,
+      image: portfolio,
+      title: "GlobeInfo",
+      description: "effortlessly fetching and presenting detailed country data through a seamless API integration used The Paggination For Seemless User Exprience",
+      link: "https://country-atlas-syry.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 8,
+      image: portfolio,
+      title: "SummarEase",
+      description: "Summize is designed to enhance your reading experience by condensing lengthy articles into concise summaries.",
+      link: "https://summar-ease-five.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 8,
+      image: portfolio,
       title: "EchoRift",
-      description: "Embark on a revolutionary musical odyssey with EchoRift. This cutting-edge app is more than just a music player; it's a portal to sonic realms unexplored. Dive into handcrafted playlists, discover new genres with intelligent recommendations.",
+      description: "it's a portal to sonic realms unexplored. Dive into handcrafted playlists, discover new genres with intelligent recommendations. used Rapid Api",
       link: "/work/aizen",
       target: "_self",
     },
     {
-      id: 7,
+      id: 10,
       image: portfolio,
       title: "FitPulse",
-      description: "Empower your fitness journey with FitPulse - a professional fitness application seamlessly integrated with an API. Browse a diverse range of exercises, explore detailed exercise information, and watch instructional YouTube videos, all within the app. ",
+      description: "seamlessly integrated with an API. Browse a diverse range of exercises, explore detailed exercise information, and watch instructional YouTube videos, all within the app. ",
       link: "https://evogymm.netlify.app/",
       target: "_blank",
     },
-    {
-      id: 8,
-      image: portfolio,
-      title: "GlobeInfo",
-      description: "Unlock a world of information with our ReactJS-powered app, effortlessly fetching and presenting detailed country data through a seamless API integration used The Paggination For Seemless User Exprience",
-      link: "https://country-atlas-syry.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 10,
-      image: portfolio,
-      title: "Pokedex",
-      description: "🚀Welcome to the Pokédex Web App repository! This web application serves as a digital encyclopedia for Pokémon enthusiasts, providing a user-friendly interface to explore and learn about various Pokémon.",
-      link: "https://pokedex-aman9483.vercel.app/pokemon/1",
-      target: "_blank",
-    },
-    {
-      id: 11,
-      image: portfolio,
-      title: "RoamWheels",
-      description: "RoamWheels is your go-to web app for effortless car discovery, booking, and rental. Whether you're embarking on a weekend adventure or need a reliable vehicle for daily commuting, RoamWheels simplifies the process.",
-      link: "https://pranjalshikhar.github.io/nft-landing-page/",
-      target: "_blank",
-    },
-    {
-      id: 12,
-      image: portfolio,
-      title: "Play Mirror",
-      description: "Unleash the power of video exploration with our ReactJS and Material UI-driven web app. Dive into a world of diverse categories, seamlessly updated with the latest trends through Rapid API integration. Discover, play, and redefine your video streaming experience effortlessly.",
-      link: "/work/cryptohunter",
-      target: "_self",
-    },
-    {
-      id: 13,
-      image: portfolio,
-      title: "Red Eye",
-      description: "Question based website to know your movie genre",
-      link: "/work/redeye",
-      target: "_self",
-    },
+    
+    
+   
+
+    
   ];
 
   return (
