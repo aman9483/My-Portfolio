@@ -4,11 +4,12 @@ import Image from "next/image";
 import Avatar_Black from "../public/Avatar-black.svg";
 import Avatar_White from "../public/Avatar-white.svg";
 import Contact from "@/components/Contact";
-import Education from '@/components/Experience'
+import Education from './education'
 import Head from "next/head";
 import { useEffect } from "react";
 import Logo from "../public/goku.png";
 import Me from "../public/me.svg";
+
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -55,7 +56,7 @@ export default function Home() {
               />
             )}
             <div className="flex flex-col ml-4">
-              <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
+              <h2 className="bg-gradient-to-br dark:selection:text-white/80 selection:text-black/70 to-yellow-200 from-red-500 bg-clip-text text-transparent items-center mx-auto text-1xl md:text-3xl lg:text-4xl xl:text-5xl font-deca font-bold ">
                 Aman Verma
               </h2>
               <h4 className="text-gray-400 xl:font-bold sm:font-bold md:font-bold sm:text-xl md:text-xl lg:text-2xl">
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
           <div className="mt-12 m:text-xl md:text-xl lg:text-2xl">
             <p className="font-light sm:leading-6 md:leading-6 lg:leading-8">
-              A full stack Web & Mobile App Developer based in{" "}
+              A full stack Web & Mobile App Developer and also AI/ML enthusiast based in{" "}
               <span className="font-medium select-none animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
                 INDIA
               </span>{" "}
@@ -76,6 +77,8 @@ export default function Home() {
           
           </div>
         </div>
+
+        <Education/>
        
         <div className="mt-28 mx-auto ">
           <Contact />

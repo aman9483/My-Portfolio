@@ -9,8 +9,7 @@ import {
 } from "react-icons/hi2";
 
 const tech = () => {
-  const data = [
-   
+  const webDevelopment = [
     {
       title: "JavaScript",
       id: 1,
@@ -24,7 +23,7 @@ const tech = () => {
       title: "TypeScript",
       id: 2,
       main: "/icons/typescript-plain.svg",
-      desc: "SuperScript of Javascript, made by microsoft with robust type safety.",
+      desc: "SuperScript of Javascript, made by Microsoft with robust type safety.",
       tag: "code",
       bg: "bg-blue-50",
       text: "text-blue-500",
@@ -33,7 +32,7 @@ const tech = () => {
       title: "React JS",
       id: 3,
       main: "/icons/react-original.svg",
-      desc: "A free and open-source front-end JavaScript library for building user interfaces based on components",
+      desc: "A free and open-source front-end JavaScript library for building user interfaces based on components.",
       tag: "develop",
       bg: "bg-blue-50",
       text: "text-blue-500",
@@ -47,60 +46,36 @@ const tech = () => {
       bg: "bg-gray-900",
       text: "text-gray-50",
     },
-  
     {
       title: "NodeJs",
       id: 5,
       main: "/icons/nodejs.png",
-      desc: "Node.js is a lightweight, interpreted, or just-in-time compiled runtime environment that allows the execution of JavaScript code on the server side. It features first-class functions, enabling developers to build scalable and efficient network applications.",
+      desc: "Node.js is a runtime environment that allows the execution of JavaScript code on the server side.",
       tag: "code",
       bg: "bg-yellow-50",
       text: "text-yellow-500",
     },
-
     {
       title: "ExpressJs",
       id: 6,
       main: "/icons/express.png",
-      desc: "Express.js is a lightweight and flexible web application framework for Node.js, providing a robust set of features for building web and mobile applications. It simplifies the process of creating powerful and scalable server-side applications with JavaScript.",
+      desc: "It simplifies the process of creating powerful and scalable server-side applications with JavaScript.",
       tag: "code",
       bg: "bg-yellow-50",
       text: "text-yellow-500",
     },
-
     {
       title: "MongoDB",
       id: 7,
       main: "/icons/mongoDB.png",
-      desc: "MongoDB is a NoSQL database management system that stores data in flexible, JSON-like documents. It is designed for ease of development and scalability, offering a versatile solution for handling diverse data types and structures.",
+      desc: "MongoDB is a NoSQL database management system that stores data in flexible, JSON-like documents.",
       tag: "Database",
-      bg: "bg-yellow-50",
-      text: "text-yellow-500",
-    },
-
-
-    {
-      title: "React Native",
-      id: 5,
-      main: "/icons/reactnative.png",
-      desc: "React Native is a free and open-source JavaScript library for developing user interfaces. It enables the creation of mobile applications through the use of reusable components.",
-      tag: "develop",
-      bg: "bg-blue-50",
-      text: "text-blue-500",
-    },
-
-    {
-      title: "Kotlin",
-      id: 6,
-      main: "/icons/kotlin.png",
-      desc: "Kotlin is a statically typed programming language that seamlessly interoperates with Java. It is particularly popular for Android app development, offering concise syntax and first-class functions. Additionally, Kotlin provides native support for Android development, making it a preferred choice for building robust and efficient mobile applications on the Android platform.",
-      tag: "code",
       bg: "bg-yellow-50",
       text: "text-yellow-500",
     },
     {
       title: "Tailwind CSS",
-      id: 6,
+      id: 8,
       main: "/icons/tailwindcss-plain.svg",
       desc: "A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       tag: "design",
@@ -108,16 +83,141 @@ const tech = () => {
       text: "text-green-500",
     },
    
-    
    
+  ];
+
+  const mobileDevelopment = [
     {
-      title: "Figma",
-      id: 10,
-      main: "/icons/figma-original.svg",
-      desc: "A boon for webapp designers, from wireframe to animation, it has it all.",
-      tag: "design",
-      bg: "bg-orange-500",
-      text: "text-orange-100",
+      title: "React Native",
+      id: 11,
+      main: "/icons/reactnative.png",
+      desc: "React Native is a framework for building native apps using React.",
+      tag: "develop",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Kotlin",
+      id: 12,
+      main: "/icons/kotlin.png",
+      desc: "Kotlin is a statically typed programming language that seamlessly interoperates with Java. It is particularly popular for Android app development.",
+      tag: "code",
+      bg: "bg-purple-50",
+      text: "text-purple-500",
+    },
+    {
+      title: "Jetpack Compose",
+      id: 13,
+      main: "/icons/jetpack.png",
+      desc: "Jetpack Compose is Android’s modern toolkit for building native UI.",
+      tag: "develop",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "XML",
+      id: 14,
+      main: "/icons/xml.png",
+      desc: "XML is a markup language for defining data structures, primarily used in Android for defining layouts.",
+      tag: "code",
+      bg: "bg-yellow-50",
+      text: "text-yellow-500",
+    },
+    {
+      title: "Room Database",
+      id: 15,
+      main: "/icons/room.webp",
+      desc: "Room is a database library that provides an abstraction layer over SQLite to allow for more robust database access.",
+      tag: "Database",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Retrofit",
+      id: 16,
+      main: "/icons/retrofit.jpg",
+      desc: "Retrofit is a type-safe HTTP client for Android and Java.",
+      tag: "code",
+      bg: "bg-yellow-50",
+      text: "text-yellow-500",
+    },
+  ];
+
+  const machineLearning = [
+    {
+      title: "Python",
+      id: 17,
+      main: "/icons/python.png",
+      desc: "Python is a high-level, interpreted programming language known for its readability and versatility in various domains, including web and machine learning.",
+      tag: "code",
+      bg: "bg-yellow-50",
+      text: "text-yellow-500",
+    },
+    {
+      title: "NumPy",
+      id: 18,
+      main: "/icons/numpy.png",
+      desc: "NumPy is a fundamental package for scientific computing with Python.",
+      tag: "ML",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Pandas",
+      id: 19,
+      main: "/icons/pandas.png",
+      desc: "Pandas is a library providing high-performance, easy-to-use data structures and data analysis tools for Python.",
+      tag: "ML",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Matplotlib",
+      id: 20,
+      main: "/icons/mat.png",
+      desc: "Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.",
+      tag: "ML",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "scikit-learn",
+      id: 21,
+      main: "/icons/sckiy.png",
+      desc: "scikit-learn is a free software machine learning library for the Python programming language.",
+      tag: "ML",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "SQL",
+      id: 22,
+      main: "/icons/sql.png",
+      desc: "SQL is a standard language for storing, manipulating, and retrieving data in databases.",
+      tag: "Database",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Jupyter Notebook",
+      id: 23,
+      main: "/icons/jupyter.svg",
+      desc: "Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.",
+      tag: "tool",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+  ];
+
+  const tools = [
+    {
+      title: "Excel",
+      id: 24,
+      main: "/icons/excel.png",
+      desc: "Excel is a spreadsheet program included in the Microsoft Office suite of applications.",
+      tag: "tool",
+      bg: "bg-green-50",
+      text: "text-green-500",
     },
     {
       title: "GitHub",
@@ -128,12 +228,66 @@ const tech = () => {
       bg: "bg-gray-900",
       text: "text-gray-100",
     },
-   
+    {
+      title: "Figma",
+      id: 9,
+      main: "/icons/figma-original.svg",
+      desc: "A boon for web app designers, from wireframe to animation, it has it all.",
+      tag: "design",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "Docker",
+      id: 25,
+      main: "/icons/docker.png",
+      desc: "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
+      tag: "tool",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Android Studio",
+      id: 26,
+      main: "/icons/android.png",
+      desc: "Android Studio is ide to write code and develop Android application.works with Java and Kotlin programming",
+      tag: "IDE",
+      bg: "bg-purple-50",
+      text: "text-purple-500",
+    },
+
+
+    {
+      title: "Vs Code",
+      id: 26,
+      main: "/icons/vsc.png",
+      desc: "Vs Code is ide to write code and develop web and mobile application.works with every programming languages",
+      tag: "IDE",
+      bg: "bg-purple-50",
+      text: "text-purple-500",
+    },
+
   ];
+
+  
+
   const [idNumber, setIdNumber] = useState(0);
+  const [activeSection, setActiveSection] = useState("web");
+
+  const getData = () => {
+    if (activeSection === "web") return webDevelopment;
+    if (activeSection === "mobile") return mobileDevelopment;
+    if (activeSection === "ml") return machineLearning;
+    if (activeSection==="tool") return tools;
+    
+  };
+
+  const data = getData();
+
   const changeId = (id) => {
     setIdNumber(id);
   };
+
   const rightArrow = () => {
     if (idNumber + 1 >= data.length) {
       setIdNumber(0);
@@ -141,6 +295,7 @@ const tech = () => {
       setIdNumber(idNumber + 1);
     }
   };
+
   const leftArrow = () => {
     if (idNumber === 0) {
       setIdNumber(data.length - 1);
@@ -173,6 +328,51 @@ const tech = () => {
             experimenting tools than actually coding some senseful things 😎
           </p>
         </div>
+
+        <div className="mt-12 flex justify-center space-x-4">
+          <button
+            className={`px-4 py-2 rounded-lg ${
+              activeSection === "web"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setActiveSection("web")}
+          >
+            Web Development
+          </button>
+          <button
+            className={`px-4 py-2 rounded-lg ${
+              activeSection === "mobile"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setActiveSection("mobile")}
+          >
+            Mobile Development
+          </button>
+          <button
+            className={`px-4 py-2 rounded-lg ${
+              activeSection === "ml"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setActiveSection("ml")}
+          >
+            Machine Learning
+          </button>
+
+          <button
+            className={`px-4 py-2 rounded-lg ${
+              activeSection === "ml"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setActiveSection("tool")}
+          >
+           Tools
+          </button>
+        </div>
+
         <div className="flex mx-auto justify-between mt-12 space-x-4 md:space-x-6 lg:space-x-auto items-center">
           <button
             className="font-space group bg-[#c7dada] dark:bg-[#939f9f] dark:hover:bg-[#828686] h-max w-max hover:bg-[#f7eeff]  px-1 py-1 rounded-full select-none "
