@@ -17,7 +17,7 @@ const Header = () => {
   const [mounted, setMounted] = useState(false);
   let Links = [
    
-    { name: "Projects", link: "/Work" },
+    { name: "Projects", link: "/work" },
     { name: "about", link: "/about" },
     { name: "Skills", link: "/tech" },
    
