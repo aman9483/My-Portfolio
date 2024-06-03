@@ -82,6 +82,54 @@ const tech = () => {
       bg: "bg-green-50",
       text: "text-green-500",
     },
+    {
+      title: "Excel",
+      id: 24,
+      main: "/icons/excel.png",
+      desc: "Excel is a spreadsheet program included in the Microsoft Office suite of applications.",
+      tag: "tool",
+      bg: "bg-green-50",
+      text: "text-green-500",
+    },
+    {
+      title: "GitHub",
+      id: 10,
+      main: "/icons/github-original.svg",
+      desc: "A developer's go-to platform for collaborating and showcasing their code.",
+      tag: "platform",
+      bg: "bg-gray-900",
+      text: "text-gray-100",
+    },
+    {
+      title: "Figma",
+      id: 9,
+      main: "/icons/figma-original.svg",
+      desc: "A boon for web app designers, from wireframe to animation, it has it all.",
+      tag: "design",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "Docker",
+      id: 25,
+      main: "/icons/docker.png",
+      desc: "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
+      tag: "tool",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+   
+
+
+    {
+      title: "Vs Code",
+      id: 26,
+      main: "/icons/vsc.png",
+      desc: "Vs Code is ide to write code and develop web and mobile application.works with every programming languages",
+      tag: "IDE",
+      bg: "bg-purple-50",
+      text: "text-purple-500",
+    },
    
    
   ];
@@ -140,6 +188,16 @@ const tech = () => {
       tag: "code",
       bg: "bg-yellow-50",
       text: "text-yellow-500",
+    },
+
+    {
+      title: "Android Studio",
+      id: 26,
+      main: "/icons/android.png",
+      desc: "Android Studio is ide to write code and develop Android application.works with Java and Kotlin programming",
+      tag: "IDE",
+      bg: "bg-purple-50",
+      text: "text-purple-500",
     },
   ];
 
@@ -209,65 +267,7 @@ const tech = () => {
     },
   ];
 
-  const tools = [
-    {
-      title: "Excel",
-      id: 24,
-      main: "/icons/excel.png",
-      desc: "Excel is a spreadsheet program included in the Microsoft Office suite of applications.",
-      tag: "tool",
-      bg: "bg-green-50",
-      text: "text-green-500",
-    },
-    {
-      title: "GitHub",
-      id: 10,
-      main: "/icons/github-original.svg",
-      desc: "A developer's go-to platform for collaborating and showcasing their code.",
-      tag: "platform",
-      bg: "bg-gray-900",
-      text: "text-gray-100",
-    },
-    {
-      title: "Figma",
-      id: 9,
-      main: "/icons/figma-original.svg",
-      desc: "A boon for web app designers, from wireframe to animation, it has it all.",
-      tag: "design",
-      bg: "bg-orange-500",
-      text: "text-orange-100",
-    },
-    {
-      title: "Docker",
-      id: 25,
-      main: "/icons/docker.png",
-      desc: "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
-      tag: "tool",
-      bg: "bg-blue-50",
-      text: "text-blue-500",
-    },
-    {
-      title: "Android Studio",
-      id: 26,
-      main: "/icons/android.png",
-      desc: "Android Studio is ide to write code and develop Android application.works with Java and Kotlin programming",
-      tag: "IDE",
-      bg: "bg-purple-50",
-      text: "text-purple-500",
-    },
 
-
-    {
-      title: "Vs Code",
-      id: 26,
-      main: "/icons/vsc.png",
-      desc: "Vs Code is ide to write code and develop web and mobile application.works with every programming languages",
-      tag: "IDE",
-      bg: "bg-purple-50",
-      text: "text-purple-500",
-    },
-
-  ];
 
   
 
@@ -278,7 +278,7 @@ const tech = () => {
     if (activeSection === "web") return webDevelopment;
     if (activeSection === "mobile") return mobileDevelopment;
     if (activeSection === "ml") return machineLearning;
-    if (activeSection==="tool") return tools;
+  
     
   };
 
@@ -361,16 +361,7 @@ const tech = () => {
             Machine Learning
           </button>
 
-          <button
-            className={`px-4 py-2 rounded-lg ${
-              activeSection === "ml"
-                ? "bg-blue-500 text-white"
-                : "bg-gray-200 text-gray-700"
-            }`}
-            onClick={() => setActiveSection("tool")}
-          >
-           Tools
-          </button>
+         
         </div>
 
         <div className="flex mx-auto justify-between mt-12 space-x-4 md:space-x-6 lg:space-x-auto items-center">
