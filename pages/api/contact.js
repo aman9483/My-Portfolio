@@ -1,4 +1,4 @@
-import connectDB from '../../utils/dbConnect';
+import connectDB from '../../utiles/dbConnect';
 import Contact from '../../models/Contact';
 
 export default async function handler(req, res) {
