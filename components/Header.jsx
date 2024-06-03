@@ -20,6 +20,7 @@ const Header = () => {
     { name: "Projects", link: "/work" },
     { name: "about", link: "/about" },
     { name: "Skills", link: "/tech" },
+    { name: "Contact", link: "/contact" },
    
   ];
   const [isScrolled, setIsScrolled] = useState(false);
