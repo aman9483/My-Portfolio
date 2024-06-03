@@ -1,4 +1,3 @@
-
 import mongoose from 'mongoose';
 
 const contactSchema = new mongoose.Schema({
@@ -28,6 +27,7 @@ const contactSchema = new mongoose.Schema({
   },
 });
 
-const Contact = mongoose.model('contacts', contactSchema);
+// Check if the model has already been defined to prevent redefinition
+const Contact = mongoose.models.contacts || mongoose.model('contacts', contactSchema);
 
 export default Contact;

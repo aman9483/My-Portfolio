@@ -16,7 +16,7 @@ const Contact = () => {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch('https://aman-verma.vercel.app/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
