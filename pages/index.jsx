@@ -8,8 +8,10 @@ import Education from './education'
 import Head from "next/head";
 import { useEffect } from "react";
 import Logo from "../public/goku.png";
-import Me from "../public/me.svg";
-
+import CursorTrailCanvas from "../components/cursor-trail-canvas";
+import ServiceCarousel from "../components/serviceCrousal"; 
+import SkillSection  from "../components/skillSection"
+import About from "../components/About"
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -73,13 +75,20 @@ export default function Home() {
               who develops modern, reactive, and user-friendly web applications
               as well as Mobile App using the latest technologies currently. 
             </p>
-
-          
           </div>
         </div>
 
-        <Education/>
-       
+        <div className="mt-28 mx-auto ">
+        <About/>
+
+        </div>
+
+        <div className="mt-28 mx-auto ">
+          <ServiceCarousel /> 
+        </div>
+
+
+
         <div className="mt-28 mx-auto ">
           <Contact />
         </div>

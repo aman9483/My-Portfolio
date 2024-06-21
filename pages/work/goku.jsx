@@ -5,7 +5,7 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import Home from "../../public/work/room1.png";
+import Home from "../../public/work/room.png";
 import Login from "../../public/work/room2.png";
 import Shop from "../../public/work/room3.png";
 import BookDetail from "../../public/work/room4.png";
@@ -19,7 +19,7 @@ import Order from "../../public/work/room11.png";
 import OrderDetails from "../../public/work/room12.png";
 
 
-export default function Aizen() {
+export default function Goku() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
 

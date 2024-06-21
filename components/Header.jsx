@@ -18,7 +18,6 @@ const Header = () => {
   let Links = [
    
     { name: "Projects", link: "/work" },
-    { name: "about", link: "/about" },
     { name: "Skills", link: "/tech" },
     { name: "Contact", link: "/contact" },
    
@@ -35,9 +34,7 @@ const Header = () => {
   };
   const useOutsideAlerter = (ref) => {
     useEffect(() => {
-      /**
-       * Alert if clicked on outside of element
-       */
+     
       function handleClickOutside(event) {
         if (ref.current && !ref.current.contains(event.target)) {
           setOpen(false);

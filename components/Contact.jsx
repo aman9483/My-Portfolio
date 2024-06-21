@@ -1,20 +1,13 @@
 import Image from "next/image";
 import { TfiLinkedin, TfiTwitterAlt } from "react-icons/tfi";
 import Rectangle from "../public/Rectangle.svg";
-import Me from "../public/me2.svg";
+
 
 const Contact = () => {
   return (
 
     <div>
 
-<Image
-                src={Me}
-                alt="aman"
-                width="100"
-                height="100"
-                id="Me2"
-              />
     <div className="h-max xl:px-12 lg:h-[22rem] p-6 sm:p-8 md:px-10 pt-32 md:pt-40 lg:pt-10 bg-gradient-to-tr dark:from-[#f6ebeb20] dark:to-[#fff8ec20] from-[#f6ebeb90] to-[#fff8ec60] flex flex-col lg:flex-row mx-auto rounded-3xl shadow-md drop-shadow-2xl backdrop-blur-xl items-center justify-center lg:justify-between ">
       <div className="order-2 sm:w-[75%] lg:w-[80%] lg:basis-[60%] flex flex-col space-y-6 cirGradient bg-clip-text">
         <h2 className=" tracking-normal bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl md:text-3xl lg:text-4xl font-bold font-deca selection:text-gray-700 dark:selection:text-white/90 ">

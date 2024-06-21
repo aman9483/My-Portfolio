@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import aboutImage from "../public/icons/mypic.jpg";
+import aboutImage from "../public/mypic.jpg";
 import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
@@ -12,7 +12,7 @@ import Sparkles from "../public/Sparkles.svg";
 import Developer from "../public/Developer.svg";
 import Whale from "../public/Whale.svg";
 import { useEffect } from "react";
-import Education from '@/components/Experience'
+import Education from './education'
 import TimeLine from "./timeline"
 
 export default function About() {
@@ -139,21 +139,10 @@ export default function About() {
             
             </p>
           </div>
-          <div className="flex mx-auto justify-center mt-16 select-none">
-            <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-
-              
-              dattebayo
-            </span>
-            {currentTheme === "dark" ? (
-              <Image src={love_white} alt="love" width="30" className="-mt-4" />
-            ) : (
-              <Image src={love_black} alt="love" width="30" className="-mt-4" />
-            )}
-          </div>
+         
         </div>
 
-        
+        <Education/>
         
        
       </main>
