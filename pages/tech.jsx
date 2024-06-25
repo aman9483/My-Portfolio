@@ -60,12 +60,24 @@ const webDevelopment = [
     bg: "bg-yellow-50",
     text: "text-yellow-500",
   },
+
+
   {
     title: "MongoDB",
     id: 7,
     main: "/icons/mongoDB.png",
     desc: "MongoDB is a NoSQL database management system that stores data in flexible, JSON-like documents.",
     tag: "Database",
+    bg: "bg-yellow-50",
+    text: "text-yellow-500",
+  },
+
+  {
+    title: "Flask",
+    id: 7,
+    main: "/icons/flask.png",
+    desc: "Flask is a lightweight and flexible framework for web development and web applications that utilizes the Python programming language",
+    tag: "Code",
     bg: "bg-yellow-50",
     text: "text-yellow-500",
   },

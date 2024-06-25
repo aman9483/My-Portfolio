@@ -1,3 +1,4 @@
+// Import necessary components
 import { useTheme } from "next-themes";
 import Blob from "@/components/Blob";
 import Image from "next/image";
@@ -12,7 +13,9 @@ import CursorTrailCanvas from "../components/cursor-trail-canvas";
 import ServiceCarousel from "../components/serviceCrousal"; 
 import SkillSection  from "../components/skillSection"
 import About from "../components/About"
-
+import aman from "../public/icons/aman.ico"
+import { SKILLS_DATA } from "../components/data/skills";
+import {SkillsShowcase} from "../components/skills/skills-showcase"
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
@@ -44,10 +47,10 @@ export default function Home() {
           <div className="flex flex-row justify-start items-center mt-20">
             {currentTheme === "dark" ? (
               <Image
-                src={Logo}
+                src={aman}
                 alt="Aman"
-                width="100"
-                height="100"
+                width="55"
+                height="55"
               />
             ) : (
               <Image
@@ -79,15 +82,15 @@ export default function Home() {
         </div>
 
         <div className="mt-28 mx-auto ">
-        <About/>
-
+          <About />
         </div>
+
+       
+        {/* <SkillsShowcase skills={SKILLS_DATA} /> */}
 
         <div className="mt-28 mx-auto ">
           <ServiceCarousel /> 
         </div>
-
-
 
         <div className="mt-28 mx-auto ">
           <Contact />

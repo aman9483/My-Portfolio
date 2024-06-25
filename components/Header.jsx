@@ -9,6 +9,7 @@ import pranjal_header_white from "../public//me.svg";
 import Avatar_Black from "../public/Avatar-black.svg";
 import Image from "next/image";
 import BackButton from "./BackButton";
+import aman from "../public/icons/aman.ico"
 
 
 const Header = () => {
@@ -77,7 +78,12 @@ const Header = () => {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <Image src={Avatar_Black} alt="header" width="100" id="image" />
+               <Image
+               src={aman}
+               alt="Aman"
+               width="55"
+               height="55"
+             />
             ) : (
               <Image src={pranjal_header_black} alt="header" width="100" height= "10" id="image"/>
             )}

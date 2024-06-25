@@ -11,6 +11,9 @@ import share from "../public/work/snapshare1.png"
 import pokedex2 from "../public/work/pokedex2.png"
 import Screenshot1 from "../public/work/Screenshot1.png"
 import glob1 from "../public/work/glob1.png"
+import ml1 from "../public/work/ml projects/ml-1.png"
+import b1 from "../public/work/ml projects/b2.png"
+
 export default function Work() {
   const [selectedSection, setSelectedSection] = useState("web");
 
@@ -94,21 +97,21 @@ export default function Work() {
   const mlProjects = [
     {
       id: 1,
-      image: portfolio,
-      title: "ML Project 1",
-      description: "Description for ML Project 1",
-      link: "http://live-ml-project1.com",
-      target: "_blank",
-      techStack: ["Python", "TensorFlow"],
+      image: ml1,
+      title: "Movies Recommandation System",
+      description: "🚀Movie Recommendation System Description Objective: The goal of a movie recommendation system is to suggest movies to users based on their preferences or similarities to movies they have already liked. This is achieved by analyzing patterns in user be",
+      link: "/work/machine-learning-projects/movies-recommandation-system",
+      target: "_self",
+      techStack: ["Python", "Pandas", "Sckit-Learn", "Vectorziation", "TMDB"],
     },
     {
       id: 2,
-      image: portfolio,
-      title: "ML Project 2",
-      description: "Description for ML Project 2",
-      link: "http://live-ml-project2.com",
-      target: "_blank",
-      techStack: ["Python", "PyTorch"],
+      image: b1,
+      title: "Book Recommandation System",
+      description: "🚀Book Recommendation System Description Objective: The goal of a movie recommendation system is to suggest Books to users based on their preferences.",
+      link: "/work/machine-learning-projects/book-remmandation",
+      target: "_self",
+      techStack: ["Python", "Pandas", "Sckit-Learn", "Vectorziation","kaggle"],
     },
   ];
 
